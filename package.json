@@ -1,18 +1,36 @@
 {
-  "name": "cordova-universal-links-plugin",
-  "version": "1.2.1",
-  "description": "Cordova plugin to add in your application support for Universal Links (iOS 9) and Deep Links (Android). Basically, open application through the link in the browser.",
+  "author": {
+    "name": "Nikolay Demyankov for Nordnet Bank AB"
+  },
+  "bugs": {
+    "url": "https://github.com/streaka/cordova-universal-links-plugin-deluxe/issues"
+  },
   "cordova": {
-    "id": "cordova-universal-links-plugin",
+    "id": "cordova-universal-links-plugin-fix",
     "platforms": [
       "ios",
       "android"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nordnet/cordova-universal-links-plugin.git"
+  "dependencies": {
+    "mkpath": ">=1.0.0",
+    "node-version-compare": ">=1.0.1",
+    "plist": ">=1.2.0",
+    "rimraf": ">=2.4",
+    "xml2js": ">=0.4"
   },
+  "description": "Cordova plugin to add in your application support for Universal Links (iOS 9) and Deep Links (Android). Basically, open application through the link in the browser.",
+  "engines": [
+    {
+      "name": "cordova-ios",
+      "version": ">=3.8"
+    },
+    {
+      "name": "cordova-android",
+      "version": ">=4"
+    }
+  ],
+  "homepage": "https://github.com/streaka/cordova-universal-links-plugin-deluxe#readme",
   "keywords": [
     "cordova",
     "links",
@@ -25,27 +43,11 @@
     "ios",
     "android"
   ],
-  "engines": [
-    {
-      "name": "cordova-ios",
-      "version": ">=3.8"
-    },
-    {
-      "name": "cordova-android",
-      "version": ">=4"
-    }
-  ],
-  "dependencies": {
-    "mkpath": ">=1.0.0",
-    "xml2js": ">=0.4",
-    "rimraf": ">=2.4",
-    "node-version-compare": ">=1.0.1",
-    "plist": ">=1.2.0"
-  },
-  "author": "Nikolay Demyankov for Nordnet Bank AB",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nordnet/cordova-universal-links-plugin/issues"
+  "name": "cordova-universal-links-plugin-deluxe",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/streaka/cordova-universal-links-plugin-deluxe.git"
   },
-  "homepage": "https://github.com/nordnet/cordova-universal-links-plugin#readme"
+  "version": "1.3.0"
 }
